@@ -8,7 +8,7 @@ This template was tested on:
 - PAN-OS, version 10.0
 
 # Setup
-See Zabbix templates importing for basic instructions on how to import a template.
+- See Zabbix templates importing for basic instructions on how to import a template.
 https://www.zabbix.com/documentation/5.2/manual/xml_export_import/templates#importing
 
 # Zabbix configuration
