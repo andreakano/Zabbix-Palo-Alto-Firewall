@@ -2,7 +2,7 @@
 Template to monitor Palo Alto Networks NGFW with RAM Memory Graph update.
 
 # Overview
-The template to monitor Palo Alto Networks NGFW PAN-OS by Zabbix using SNMP v2c. For Zabbix version: 5.4 and higher.
+Template to monitor Palo Alto Networks NGFW PAN-OS by Zabbix using SNMP v2c. For Zabbix version: 5.4 and higher.
 
 This template was tested on:
 - PAN-OS, version 10.0
