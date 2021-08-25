@@ -1,6 +1,6 @@
 zabbix_export:
   version: '5.4'
-  date: '2021-08-25T18:46:32Z'
+  date: '2021-08-25T19:18:59Z'
   groups:
     -
       uuid: 7df96b18c230490a9a0a9e2307226338
@@ -592,6 +592,22 @@ zabbix_export:
               value: '2'
               newvalue: unknown
   graphs:
+    -
+      uuid: 69f54559fe144b71ba391a40223dbc6b
+      name: 'Configuration Storage'
+      graph_items:
+        -
+          sortorder: '1'
+          color: 1A7C11
+          item:
+            host: 'Template Palo Alto Firewall'
+            key: hrStorageSize.1040
+        -
+          sortorder: '2'
+          color: F63100
+          item:
+            host: 'Template Palo Alto Firewall'
+            key: hrStorageUsed.1040
     -
       uuid: 9ae35e2bb3af4b6084d2d484d82bdbbb
       name: 'CPU load graph'
