@@ -1,6 +1,6 @@
 zabbix_export:
   version: '5.4'
-  date: '2021-08-25T19:18:59Z'
+  date: '2021-08-26T20:12:45Z'
   groups:
     -
       uuid: 7df96b18c230490a9a0a9e2307226338
@@ -598,13 +598,14 @@ zabbix_export:
       graph_items:
         -
           sortorder: '1'
-          color: 1A7C11
+          color: F63100
           item:
             host: 'Template Palo Alto Firewall'
             key: hrStorageSize.1040
         -
           sortorder: '2'
-          color: F63100
+          drawtype: GRADIENT_LINE
+          color: 1A7C11
           item:
             host: 'Template Palo Alto Firewall'
             key: hrStorageUsed.1040
@@ -629,13 +630,14 @@ zabbix_export:
       graph_items:
         -
           sortorder: '1'
-          color: 1A7C11
+          color: F63100
           item:
             host: 'Template Palo Alto Firewall'
             key: hrStorageSize.1041
         -
           sortorder: '2'
-          color: F63100
+          drawtype: GRADIENT_LINE
+          color: 1A7C11
           item:
             host: 'Template Palo Alto Firewall'
             key: hrStorageUsed.1041

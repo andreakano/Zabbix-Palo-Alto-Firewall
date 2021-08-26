@@ -1,7 +1,7 @@
 {
     "zabbix_export": {
         "version": "5.4",
-        "date": "2021-08-25T19:19:02Z",
+        "date": "2021-08-26T20:12:48Z",
         "groups": [
             {
                 "uuid": "7df96b18c230490a9a0a9e2307226338",
@@ -707,7 +707,7 @@
                 "graph_items": [
                     {
                         "sortorder": "1",
-                        "color": "1A7C11",
+                        "color": "F63100",
                         "item": {
                             "host": "Template Palo Alto Firewall",
                             "key": "hrStorageSize.1040"
@@ -715,7 +715,8 @@
                     },
                     {
                         "sortorder": "2",
-                        "color": "F63100",
+                        "drawtype": "GRADIENT_LINE",
+                        "color": "1A7C11",
                         "item": {
                             "host": "Template Palo Alto Firewall",
                             "key": "hrStorageUsed.1040"
@@ -750,7 +751,7 @@
                 "graph_items": [
                     {
                         "sortorder": "1",
-                        "color": "1A7C11",
+                        "color": "F63100",
                         "item": {
                             "host": "Template Palo Alto Firewall",
                             "key": "hrStorageSize.1041"
@@ -758,7 +759,8 @@
                     },
                     {
                         "sortorder": "2",
-                        "color": "F63100",
+                        "drawtype": "GRADIENT_LINE",
+                        "color": "1A7C11",
                         "item": {
                             "host": "Template Palo Alto Firewall",
                             "key": "hrStorageUsed.1041"

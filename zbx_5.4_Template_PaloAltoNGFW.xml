@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>5.4</version>
-    <date>2021-08-25T19:19:00Z</date>
+    <date>2021-08-26T20:12:46Z</date>
     <groups>
         <group>
             <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
@@ -710,7 +710,7 @@ The most recent measurement obtained by the agent for this sensor.</description>
             <graph_items>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <color>1A7C11</color>
+                    <color>F63100</color>
                     <item>
                         <host>Template Palo Alto Firewall</host>
                         <key>hrStorageSize.1040</key>
@@ -718,7 +718,8 @@ The most recent measurement obtained by the agent for this sensor.</description>
                 </graph_item>
                 <graph_item>
                     <sortorder>2</sortorder>
-                    <color>F63100</color>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>1A7C11</color>
                     <item>
                         <host>Template Palo Alto Firewall</host>
                         <key>hrStorageUsed.1040</key>
@@ -753,7 +754,7 @@ The most recent measurement obtained by the agent for this sensor.</description>
             <graph_items>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <color>1A7C11</color>
+                    <color>F63100</color>
                     <item>
                         <host>Template Palo Alto Firewall</host>
                         <key>hrStorageSize.1041</key>
@@ -761,7 +762,8 @@ The most recent measurement obtained by the agent for this sensor.</description>
                 </graph_item>
                 <graph_item>
                     <sortorder>2</sortorder>
-                    <color>F63100</color>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>1A7C11</color>
                     <item>
                         <host>Template Palo Alto Firewall</host>
                         <key>hrStorageUsed.1041</key>
