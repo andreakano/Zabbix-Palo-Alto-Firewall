@@ -1,6 +1,6 @@
 zabbix_export:
   version: '5.4'
-  date: '2021-08-27T10:50:32Z'
+  date: '2021-08-29T03:16:58Z'
   groups:
     -
       uuid: 7df96b18c230490a9a0a9e2307226338
@@ -75,6 +75,20 @@ zabbix_export:
           type: SNMP_AGENT
           snmp_oid: .1.3.6.1.2.1.25.2.3.1.5.1042
           key: hrStorageSize.1042
+          units: B
+        -
+          uuid: f622f845dc9d4140adae0c2b7439ad7a
+          name: 'Hardware Packet Buffer'
+          type: SNMP_AGENT
+          snmp_oid: .1.3.6.1.2.1.25.2.3.1.6.1011
+          key: hrStorageUsed.1011
+          units: B
+        -
+          uuid: 4f41cc80b03b4fccb583ac74c1d82dcf
+          name: 'Software Packet Buffer'
+          type: SNMP_AGENT
+          snmp_oid: .1.3.6.1.2.1.25.2.3.1.6.1012
+          key: hrStorageUsed.1012
           units: B
         -
           uuid: c88d2760c3584d44a6e77d5c167a7a48
@@ -216,7 +230,7 @@ zabbix_export:
           name: 'Total supported sessions'
           type: SNMP_AGENT
           snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.2.0
-          key: panSessionMax
+          key: panSessionMax.0
           delay: 1d
           history: 7d
           trends: '0'
@@ -695,4 +709,4 @@ zabbix_export:
           color: F63100
           item:
             host: 'Template Palo Alto Firewall'
-            key: panSessionMax
+            key: panSessionMax.0

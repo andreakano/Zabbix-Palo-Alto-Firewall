@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>5.4</version>
-    <date>2021-08-27T10:50:33Z</date>
+    <date>2021-08-29T03:17:00Z</date>
     <groups>
         <group>
             <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
@@ -91,6 +91,22 @@
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.25.2.3.1.5.1042</snmp_oid>
                     <key>hrStorageSize.1042</key>
+                    <units>B</units>
+                </item>
+                <item>
+                    <uuid>f622f845dc9d4140adae0c2b7439ad7a</uuid>
+                    <name>Hardware Packet Buffer</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.25.2.3.1.6.1011</snmp_oid>
+                    <key>hrStorageUsed.1011</key>
+                    <units>B</units>
+                </item>
+                <item>
+                    <uuid>4f41cc80b03b4fccb583ac74c1d82dcf</uuid>
+                    <name>Software Packet Buffer</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.25.2.3.1.6.1012</snmp_oid>
+                    <key>hrStorageUsed.1012</key>
                     <units>B</units>
                 </item>
                 <item>
@@ -255,7 +271,7 @@
                     <name>Total supported sessions</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.4.1.25461.2.1.2.3.2.0</snmp_oid>
-                    <key>panSessionMax</key>
+                    <key>panSessionMax.0</key>
                     <delay>1d</delay>
                     <history>7d</history>
                     <trends>0</trends>
@@ -836,7 +852,7 @@ The most recent measurement obtained by the agent for this sensor.</description>
                     <color>F63100</color>
                     <item>
                         <host>Template Palo Alto Firewall</host>
-                        <key>panSessionMax</key>
+                        <key>panSessionMax.0</key>
                     </item>
                 </graph_item>
             </graph_items>
