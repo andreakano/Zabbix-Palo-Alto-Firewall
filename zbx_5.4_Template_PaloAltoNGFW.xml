@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>5.4</version>
-    <date>2021-08-31T17:41:43Z</date>
+    <date>2021-08-31T18:44:01Z</date>
     <groups>
         <group>
             <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
@@ -246,6 +246,14 @@
                     <delay>10s</delay>
                 </item>
                 <item>
+                    <uuid>c3bb18f5bb8e4eadb56da7b5a914b5cc</uuid>
+                    <name>CPS Interface GlobalProtect Other IP</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>enterprises.25461.2.1.2.3.11.1.5.400000001</snmp_oid>
+                    <key>panIfActiveOtherIpCps.2</key>
+                    <delay>10s</delay>
+                </item>
+                <item>
                     <uuid>db72ccfe78414b9aa49db9cdee01caf8</uuid>
                     <name>CPS Interface Internet - 1/1 TCP</name>
                     <type>SNMP_AGENT</type>
@@ -262,6 +270,14 @@
                     <delay>10s</delay>
                 </item>
                 <item>
+                    <uuid>9071d276040f4e4a97edd5044b57b8ff</uuid>
+                    <name>CPS Interface GlobalProtect TCP</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>enterprises.25461.2.1.2.3.11.1.3.400000001</snmp_oid>
+                    <key>panIfActiveTcpCps.2</key>
+                    <delay>10s</delay>
+                </item>
+                <item>
                     <uuid>cc2d571ecbd84b258aec1852809c8b4e</uuid>
                     <name>CPS Interface Internet - 1/1 UDP</name>
                     <type>SNMP_AGENT</type>
@@ -275,6 +291,14 @@
                     <type>SNMP_AGENT</type>
                     <snmp_oid>enterprises.25461.2.1.2.3.11.1.4.3</snmp_oid>
                     <key>panIfActiveUdpCps.1</key>
+                    <delay>10s</delay>
+                </item>
+                <item>
+                    <uuid>4c9bbda663144772866a161825fad6b5</uuid>
+                    <name>CPS Interface GlobalProtect UDP</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>enterprises.25461.2.1.2.3.11.1.4.400000001</snmp_oid>
+                    <key>panIfActiveUdpCps.2</key>
                     <delay>10s</delay>
                 </item>
                 <item>
