@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>5.4</version>
-    <date>2021-09-07T23:56:08Z</date>
+    <date>2021-09-08T00:08:20Z</date>
     <groups>
         <group>
             <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
@@ -366,9 +366,9 @@
                     <uuid>7a46b72b7b9043e7b5adb2aa8401edeb</uuid>
                     <name>Total supported sessions</name>
                     <type>SNMP_AGENT</type>
-                    <snmp_oid>.1.3.6.1.4.1.25461.2.1.2.3.2.0</snmp_oid>
-                    <key>panSessionMax.0</key>
-                    <delay>1d</delay>
+                    <snmp_oid>.1.3.6.1.4.1.25461.2.1.2.3.2</snmp_oid>
+                    <key>panSessionMax</key>
+                    <delay>1h</delay>
                     <history>7d</history>
                     <trends>0</trends>
                     <description>Total number of sessions supported.</description>
@@ -948,7 +948,7 @@ The most recent measurement obtained by the agent for this sensor.</description>
                     <color>F63100</color>
                     <item>
                         <host>Template Palo Alto Firewall</host>
-                        <key>panSessionMax.0</key>
+                        <key>panSessionMax</key>
                     </item>
                 </graph_item>
             </graph_items>
