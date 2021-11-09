@@ -1,6 +1,6 @@
 zabbix_export:
   version: '5.4'
-  date: '2021-09-08T00:08:19Z'
+  date: '2021-11-09T03:26:37Z'
   groups:
     -
       uuid: 7df96b18c230490a9a0a9e2307226338
@@ -100,7 +100,7 @@ zabbix_export:
           uuid: 7f0cc05e397747e884abc2f486a8d66a
           name: 'Swap Memory'
           type: SNMP_AGENT
-          snmp_oid: .1.3.6.1.2.1.25.2.3.1.6.1030
+          snmp_oid: 1.3.6.1.2.1.25.2.3.1.6.1030
           key: hrStorageUsed.1030
           units: B
         -
@@ -196,85 +196,85 @@ zabbix_export:
           uuid: f23b491e4d82446d8aa8ac23935fe152
           name: 'CPS Interface Internet - 1/1 Other IP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.5.2
-          key: panIfActiveOtherIpCps
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.5.2
+          key: panIfActiveOtherIpCps.2
           delay: 10s
         -
           uuid: e9afacb275254c0092f6197b62452a10
           name: 'CPS Interface LAN - 1/2 Other IP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.5.3
-          key: panIfActiveOtherIpCps.1
-          delay: 10s
-        -
-          uuid: c3bb18f5bb8e4eadb56da7b5a914b5cc
-          name: 'CPS Interface GlobalProtect Other IP'
-          type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.5.400000001
-          key: panIfActiveOtherIpCps.2
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.5.3
+          key: panIfActiveOtherIpCps.3
           delay: 10s
         -
           uuid: 4011e1efa37f4300ae9b6847083dc295
           name: 'CPS Interface DMZ - 1/3 Other IP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.5.4
-          key: panIfActiveOtherIpCps.3
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.5.4
+          key: panIfActiveOtherIpCps.4
+          delay: 10s
+        -
+          uuid: c3bb18f5bb8e4eadb56da7b5a914b5cc
+          name: 'CPS Interface GlobalProtect Other IP'
+          type: SNMP_AGENT
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.5.400000001
+          key: panIfActiveOtherIpCps.400000001
           delay: 10s
         -
           uuid: db72ccfe78414b9aa49db9cdee01caf8
           name: 'CPS Interface Internet - 1/1 TCP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.3.2
-          key: panIfActiveTcpCps
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.3.2
+          key: panIfActiveTcpCps.2
           delay: 10s
         -
           uuid: 7be3bfa0c96749c78cd66635668e77fe
           name: 'CPS Interface LAN - 1/2 TCP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.3.3
-          key: panIfActiveTcpCps.1
-          delay: 10s
-        -
-          uuid: 9071d276040f4e4a97edd5044b57b8ff
-          name: 'CPS Interface GlobalProtect TCP'
-          type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.3.400000001
-          key: panIfActiveTcpCps.2
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.3.3
+          key: panIfActiveTcpCps.3
           delay: 10s
         -
           uuid: 168ab266c37743a2bdd99d4de762f4ed
           name: 'CPS Interface DMZ - 1/3 TCP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.3.4
-          key: panIfActiveTcpCps.3
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.3.4
+          key: panIfActiveTcpCps.4
+          delay: 10s
+        -
+          uuid: 9071d276040f4e4a97edd5044b57b8ff
+          name: 'CPS Interface GlobalProtect TCP'
+          type: SNMP_AGENT
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.3.400000001
+          key: panIfActiveTcpCps.400000001
           delay: 10s
         -
           uuid: cc2d571ecbd84b258aec1852809c8b4e
           name: 'CPS Interface Internet - 1/1 UDP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.4.2
-          key: panIfActiveUdpCps
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.4.2
+          key: panIfActiveUdpCps.2
           delay: 10s
         -
           uuid: e258ec3c043a4ac580717138cffb35b3
           name: 'CPS Interface LAN - 1/2 UDP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.4.3
-          key: panIfActiveUdpCps.1
-          delay: 10s
-        -
-          uuid: 4c9bbda663144772866a161825fad6b5
-          name: 'CPS Interface GlobalProtect UDP'
-          type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.4.400000001
-          key: panIfActiveUdpCps.2
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.4.3
+          key: panIfActiveUdpCps.3
           delay: 10s
         -
           uuid: 255d00d482ef482283e8eb86e59aa370
           name: 'CPS Interface DMZ - 1/3 UDP'
           type: SNMP_AGENT
-          snmp_oid: enterprises.25461.2.1.2.3.11.1.4.4
-          key: panIfActiveUdpCps.3
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.4.4
+          key: panIfActiveUdpCps.4
+          delay: 10s
+        -
+          uuid: 4c9bbda663144772866a161825fad6b5
+          name: 'CPS Interface GlobalProtect UDP'
+          type: SNMP_AGENT
+          snmp_oid: .1.3.6.1.4.1.25461.2.1.2.3.11.1.4.400000001
+          key: panIfActiveUdpCps.400000001
           delay: 10s
         -
           uuid: 17d6ff3560f54dfca8cec846dc57c206
